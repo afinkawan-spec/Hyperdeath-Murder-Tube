@@ -1,25 +1,22 @@
 # HYPERDEATH MURDER TUBE
 ### SCREAMING DOWN THE DEATH HOLE
-
+A vibe-coded game for **PICO-8**
 ![Hyperdeath Murder Tube cover art](docs/images/cover.png)
 
 **ONE SHIP. ONE GUN. A COMPLETELY UNREASONABLE AMOUNT OF TUNNEL.**
 
 Strap yourself into a delta-dart death rocket and hurl it down an industrial throat that absolutely does not want you inside it. Bank around the walls. Squeeze through rotating shutters. Thread the ribs. Vaporise anything rude enough to share your airspace.
 
-This is **Hyperdeath Murder Tube**: an endless tunnel runner and arcade shooter for **PICO-8**. A three-second launch throws you up to 750 km/h. Then the speed climbs toward 1,500, the tunnel changes shape, and your sensible decisions become increasingly theoretical.
+This is **Hyperdeath Murder Tube**: an endless tunnel runner and arcade shooter for **PICO-8**. 
 
 Tap out laser fire. Hold your nerve for a charged blast that punches through multiple targets. Clear the bombs or dodge them. Kill quickly, because the enemy does not politely leave when the next one arrives.
 
-**There is no finish line. There is your high score, and the wreckage of your previous opinion about how good you were at this.**
+**There is no finish line. There is your high score, and the inevitable wreckage of your ship.**
 
 ## Enter the tube
 
 Download [hyperdeath-murder-tube.p8](hyperdeath-murder-tube.p8) using GitHub's **Download raw file** button. The cartridge contains the whole game; no source files or build step are needed to play.
 
-Open it in **PICO-8**, then run it. On a PC, drag the `.p8` file onto PICO-8 and type `run`. On a compatible handheld, copy it to your PICO-8 cartridge folder and launch it through your usual PICO-8 setup. Ordinary console emulators do not run PICO-8 cartridges.
-
-Windows players with PICO-8 installed in its default location can download the repository ZIP, extract it, and double-click `play-windowed.cmd` for a 512 x 512 window. **Alt+Enter** toggles fullscreen.
 
 ## Flight instructions
 
@@ -28,7 +25,6 @@ Windows players with PICO-8 installed in its default location can download the r
 | **Left / Right** | Bank around the inside of the tube |
 | **Tap Z or X** | Fire a normal shot |
 | **Hold Z or X, then release** | Charge for one second and unleash a piercing blast |
-| **Z or X** on the title / summary | Start / retry |
 
 On a controller, use the D-pad and either PICO-8 action button (**O / X**). Both fire buttons do the same thing. The charge meter and rising sound tell you when the big shot is ready.
 
