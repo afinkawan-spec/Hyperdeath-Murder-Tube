@@ -1,0 +1,4 @@
+.pico-check/
+.media-capture/
+__pycache__/
+*.pyc
