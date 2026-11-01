@@ -5,7 +5,7 @@ A vibe-coded game for **PICO-8**
 
 **ONE SHIP. ONE GUN. A COMPLETELY UNREASONABLE AMOUNT OF TUNNEL.**
 
-Strap yourself into a delta-dart death rocket and hurl it down an industrial throat that absolutely does not want you inside it. Bank around the walls. Squeeze through rotating shutters. Thread the ribs. Vaporise anything rude enough to share your airspace.
+Strap yourself into a delta-dart death rocket and hurl it down an industrial throat that absolutely does not want you inside it. Bank around the walls. Squeeze through rotating shutters. Vaporise anything rude enough to share your airspace.
 
 This is **Hyperdeath Murder Tube**: an endless tunnel runner and arcade shooter for **PICO-8**. 
 
@@ -42,10 +42,10 @@ These enlarged portraits use the actual in-game ship renderer.
 
 | Ship | Identification and recommended attitude |
 | :---: | --- |
-| ![Green lone fighter](docs/images/fighter.png) | **FIGHTER** — Green, evasive and thoroughly opposed to your continued existence. Wanders around the opening and fires warned bursts. Give it a charged greeting or a sustained argument. |
+| ![Green lone fighter](docs/images/fighter.png) | **LONE FIGHTER** — Green, evasive and thoroughly opposed to your continued existence. Wanders around the opening and fires warned bursts. Give it a charged greeting or a sustained argument. |
 | ![Orange bomber drone](docs/images/bomber.png) | **BOMBER** — Orange trouble with a cargo hold full of bad decisions. Lays bombs through the openings you wanted to use. Shoot the bombs, shoot the bomber, or develop an urgent interest in the other side of the tunnel. |
-| ![Three pink formation fighters](docs/images/formation.png) | **FORMATION** — Three pink pests arriving in sequence, then spreading out to make the tube feel smaller. Occasional bombs and bursts complicate the conversation. Clear the whole group for a bonus; line them up for a particularly satisfying charged shot. |
-| ![Purple gunship with cyan engine pods](docs/images/gunship.png) | **HEAVY GUNSHIP** — Purple armour, two big cyan pods, absolutely no social skills. Ordinary shots bounce off. Charge your gun and break both pods. It brings bursts and bombs, and losing an engine does not improve its mood. |
+| ![Three pink formation fighters](docs/images/formation.png) | **LIGHT FIGHTER FORMATION** — Three pink pests arriving in sequence, then spreading out to make the tube feel smaller with bombs and burst fire. Clear the whole group for a bonus; line them up for a particularly satisfying charged shot. |
+| ![Purple gunship with cyan engine pods](docs/images/gunship.png) | **HEAVY GUNSHIP** — Purple armour, two big weapon pods, absolutely no social skills. Ordinary shots bounce off. Charge your gun and break both pods. It brings bursts and bombs, and losing an engine does not improve its mood. |
 
 ## Under the bonnet
 
