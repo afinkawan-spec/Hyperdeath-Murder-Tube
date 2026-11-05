@@ -14,15 +14,15 @@ def graphics_section():
 
 def audio_section():
     sounds = [[(0, 0, 0, 0)] * 32 for _ in range(17)]
-    # Distinct laser sweeps: crisp normal zap, sustained triple charged zap.
-    # ZAP-ZAP-ZAAAAAAP: two fast zips, then one sustained laser fade.
-    sounds[1][:4] = [(42, 7, 6, 1), (22, 7, 0, 0),
-                     (42, 7, 6, 1), (22, 7, 0, 0)]
+    # Distinct laser sweeps: crisp normal zap, sustained triple charged doomsday blast.
+    # Keep the charge low and heavy: ZUM-ZUM-ZAAAAAAP.
+    sounds[1][:4] = [(30, 6, 7, 1), (14, 6, 0, 0),
+                     (30, 6, 7, 1), (14, 6, 0, 0)]
     pitches = [54, 52, 50, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38,
                37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24]
     for n, pitch in enumerate(pitches):
         volume = 6 if n == 0 else (5 if n < 4 else (4 if n < 19 else (3 if n < 25 else 2)))
-        sounds[1][n + 4] = (pitch - 12, 2 if n < 19 else 7, 0 if n == 27 else volume, 5 if n >= 25 else 1)
+        sounds[1][n + 4] = (pitch - 20, 6 if n < 19 else 7, 0 if n == 27 else volume, 5 if n >= 25 else 1)
     for n in range(8):
         sounds[2][n] = (30 - n * 3, 6, max(0, 6 - n), 0)
     sounds[4][:6] = [(52, 7, 4, 1), (42, 7, 4, 1), (32, 7, 3, 1),
