@@ -38,7 +38,7 @@ function reset_run()
  tunnel_width=1
  visible_width=1
  distance=0
- speed=0
+ speed=0.9259259
  score=0
  points=0
  points_hi=0
