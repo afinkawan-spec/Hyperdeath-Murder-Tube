@@ -1,7 +1,7 @@
 # MURDER TUBE 8172AD
 ### SCREAMING DOWN THE DEATH HOLE
 A vibe-coded game for **PICO-8**
-![Hyperdeath Murder Tube cover art](docs/images/cover.png)
+![Hyperdeath Murder Tube cover art](docs/images/MuderTube 8172AD.png)
 
 **ONE SHIP. ONE GUN. A COMPLETELY UNREASONABLE AMOUNT OF TUNNEL.**
 
