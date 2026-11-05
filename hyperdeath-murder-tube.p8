@@ -163,7 +163,7 @@ function choose_route()
  -- Difficulty follows course progress, not time spent on the title.
  -- New weights apply only to newly generated sections.
  route_stage=difficulty_stage(generated)
- local difficulty=min(2,(route_stage-1)/3+max(0,generated-48)*0.003)
+ local difficulty=(route_stage-1)/3
  local kind=1
  if last_pattern>0 then
   if hard_sections>=(route_stage==4 and 3 or 2) then
@@ -245,7 +245,7 @@ function choose_route()
   for i=1,#route_steps do route_steps[i]*=direction end
  end
  -- A second shutter always has ordinary guide gates on both sides.
- route_extra_shutter=rnd(1)<min(0.92,0.65*difficulty)
+ route_extra_shutter=rnd(1)<0.65*difficulty+generated*0.002
 end
 
 
