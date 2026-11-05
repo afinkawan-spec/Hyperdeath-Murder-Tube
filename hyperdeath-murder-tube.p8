@@ -245,7 +245,7 @@ function choose_route()
   for i=1,#route_steps do route_steps[i]*=direction end
  end
  -- A second shutter always has ordinary guide gates on both sides.
- route_extra_shutter=rnd(1)<0.65*difficulty+generated*0.002
+ route_extra_shutter=rnd(1)<generated/500
 end
 
 
