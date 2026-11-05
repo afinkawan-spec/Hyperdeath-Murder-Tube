@@ -369,7 +369,7 @@ function _update60()
  shape_oval+=(profile.oval-shape_oval)*0.035
  shape_hex+=(profile.hex-shape_hex)*0.035
  tunnel_width+=(visible_width-tunnel_width)*0.035
- -- Five fixed-point units per frame: about 5 km/h per second.
+ -- Launch from 0 to 1000 km/h, then add about 5 km/h per second.
  if speed<0.9259259 then speed=min(0.9259259,speed+0x0.0155)
  else speed=min(max_speed,speed+0x0.0005) end
  distance=(distance+speed)%13120
