@@ -6,7 +6,6 @@ __lua__
 -- steering values are turns per frame
 
 function _init()
- for i=1,3 do menuitem(i) end
  max_speed=1.8518519 -- about 2000 km/h
  cartdata("marc_conduit_20261031_v1")
  best=max(0,flr(dget(0)))
