@@ -7,7 +7,7 @@ __lua__
 
 function _init()
  for i=1,3 do menuitem(i) end
- max_speed=1.3888889 -- about 1500 km/h
+ max_speed=1.8518519 -- about 2000 km/h
  cartdata("marc_conduit_20261031_v1")
  best=max(0,flr(dget(0)))
  best_hi=max(0,flr(dget(1)))
@@ -39,7 +39,7 @@ function reset_run()
  tunnel_width=1
  visible_width=1
  distance=0
- speed=0.6944444
+ speed=0
  score=0
  points=0
  points_hi=0
@@ -370,7 +370,7 @@ function _update60()
  shape_hex+=(profile.hex-shape_hex)*0.035
  tunnel_width+=(visible_width-tunnel_width)*0.035
  -- Five fixed-point units per frame: about 5 km/h per second.
- if speed<0.6944444 then speed=min(0.6944444,speed+0x0.00fd)
+ if speed<0.9259259 then speed=min(0.9259259,speed+0x0.0155)
  else speed=min(max_speed,speed+0x0.0005) end
  distance=(distance+speed)%13120
  update_audio()
@@ -751,7 +751,7 @@ function _draw()
   end
   centered("gates "..score,121,6)
  end
- if mode=="play" and speed<0.6944444 and ticks%20<12 then
+ if mode=="play" and speed<0.9259259 and ticks%20<12 then
   print("\^w\^tgo!!!\^-w\^-t",44,52,10)
  end
  if mode=="dead" and impact_age<5 then
