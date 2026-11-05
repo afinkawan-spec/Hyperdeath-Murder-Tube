@@ -75,7 +75,7 @@ def game_source():
 
 if __name__ == "__main__":
     source = game_source()
-    output = cartridge("-- hyperdeath murder tube\n-- screaming down the death hole\n" + source)
+    output = cartridge("-- murder tube 8172ad\n-- screaming down the death hole\n" + source)
     assert "#include" not in output
-    (ROOT / "hyperdeath-murder-tube.p8").write_text(output, encoding="utf-8", newline="\n")
-    print("Built hyperdeath-murder-tube.p8 with embedded code and native ship sprite.")
+    (ROOT / "murder-tube-8172ad.p8").write_text(output, encoding="utf-8", newline="\n")
+    print("Built murder-tube-8172ad.p8 with embedded code and native ship sprite.")

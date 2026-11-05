@@ -1,4 +1,4 @@
-# HYPERDEATH MURDER TUBE
+# MURDER TUBE 8172AD
 ### SCREAMING DOWN THE DEATH HOLE
 A vibe-coded game for **PICO-8**
 ![Hyperdeath Murder Tube cover art](docs/images/cover.png)
@@ -7,7 +7,7 @@ A vibe-coded game for **PICO-8**
 
 Strap yourself into a delta-dart death rocket and hurl it down an industrial throat that absolutely does not want you inside it. Bank around the walls. Squeeze through rotating shutters. Vaporise anything rude enough to share your airspace.
 
-This is **Hyperdeath Murder Tube**: an endless tunnel runner and arcade shooter for **PICO-8**. 
+This is **Murder Tube 8172AD**: an endless tunnel runner and arcade shooter for **PICO-8**.
 
 Tap out laser fire. Hold your nerve for a charged blast that punches through multiple targets. Clear the bombs or dodge them. Kill quickly, because the enemy does not politely leave when the next one arrives.
 
@@ -15,7 +15,7 @@ Tap out laser fire. Hold your nerve for a charged blast that punches through mul
 
 ## Enter the tube
 
-Download [hyperdeath-murder-tube.p8](hyperdeath-murder-tube.p8) using GitHub's **Download raw file** button. The cartridge contains the whole game; no source files or build step are needed to play.
+Download [murder-tube-8172ad.p8](murder-tube-8172ad.p8) using GitHub's **Download raw file** button. The cartridge contains the whole game; no source files or build step are needed to play.
 
 
 ## Flight instructions

@@ -8,7 +8,7 @@ Requires Python 3. Run from the repository root:
 python build_cart.py
 ```
 
-This packages `tunnel.lua`, `combat.lua`, `hazards.lua`, `ship.hex` and the generated native sound data into `hyperdeath-murder-tube.p8`. The build itself uses only Python's standard library. Playtesting requires PICO-8, which is not included.
+This packages `tunnel.lua`, `combat.lua`, `hazards.lua`, `ship.hex` and the generated native sound data into `murder-tube-8172ad.p8`. The build itself uses only Python's standard library. Playtesting requires PICO-8, which is not included.
 
 - `tunnel.lua`: flight, route generation, scenery, scoring and screens.
 - `combat.lua`: encounters, player weapons and ship rendering.

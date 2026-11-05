@@ -1,7 +1,7 @@
 pico-8 cartridge // http://www.pico-8.com
 version 42
 __lua__
--- hyperdeath murder tube
+-- murder tube 8172ad
 -- screaming down the death hole
 -- steering values are turns per frame
 
@@ -721,8 +721,8 @@ function _draw()
  if mode=="title" then
   rectfill(8,20,119,108,0)
   line(18,24,109,24,12)
-  print("\^w\^thyperdeath\^-w\^-t",24,29,12)
-  print("\^w\^tmurder tube\^-w\^-t",20,41,12)
+  print("\^w\^tmurder tube\^-w\^-t",20,29,12)
+  print("\^w\^t8172ad\^-w\^-t",40,41,12)
   centered("screaming down the death hole",54,6)
   centered("best "..score_text(best_hi,best),64,10)
   centered("\139 / \145 to bank",73,6)
